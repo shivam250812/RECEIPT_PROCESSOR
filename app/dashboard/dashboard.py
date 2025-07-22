@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 # API base URL
-API_BASE_URL = "http://localhost:8001"
+API_BASE_URL = "https://receipt-processor-884o.onrender.com"
 
 def main():
     st.title("📄 OCR Receipt Processor Dashboard")
