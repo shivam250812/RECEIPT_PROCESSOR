@@ -1,6 +1,6 @@
 # OCR Receipt Processor
 
-![OCR Receipt Processor Dashboard](/Users/shivamjogdand/Desktop/BACKEND3/image.png)
+![OCR Receipt Processor Dashboard](<img width="1434" height="808" alt="Image" src="https://github.com/user-attachments/assets/a0f7ff0a-6eeb-456a-bc1e-feab36b6f773" />)
 
 A comprehensive OCR (Optical Character Recognition) system for processing receipts and bills with advanced search, sorting, and analytics capabilities.
 
