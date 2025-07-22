@@ -1,5 +1,7 @@
 # OCR Receipt Processor
 
+![OCR Receipt Processor Dashboard](/Users/shivamjogdand/Desktop/BACKEND3/image.png)
+
 A comprehensive OCR (Optical Character Recognition) system for processing receipts and bills with advanced search, sorting, and analytics capabilities.
 
 ## 🚀 Features
@@ -65,22 +67,12 @@ ocr-receipt-processor/
 │       └── main.py
 ├── data/
 │   └── receipts.db
-├── tests/
-│   ├── __init__.py
-│   ├── test_api.py
-│   ├── test_algorithms.py
-│   └── test_services.py
-├── docs/
-│   ├── api_documentation.md
-│   ├── algorithm_documentation.md
-│   └── deployment_guide.md
 ├── scripts/
 │   ├── start_system.py
 │   └── setup_database.py
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
-└── docker-compose.yml
 ```
 
 ## 🛠️ Installation & Setup
@@ -269,43 +261,6 @@ TESSERACT_PATH=/usr/local/bin/tesseract
 - **Caching**: In-memory caching for frequently accessed data
 - **Async Processing**: Non-blocking operations for better responsiveness
 
-## 🧪 Testing
-
-### Running Tests
-
-```bash
-# Run all tests
-python -m pytest tests/
-
-# Run specific test categories
-python -m pytest tests/test_api.py
-python -m pytest tests/test_algorithms.py
-python -m pytest tests/test_services.py
-
-# Run with coverage
-python -m pytest --cov=app tests/
-```
-
-### Test Coverage
-
-- **API Tests**: Endpoint functionality and error handling
-- **Algorithm Tests**: Search, sort, and aggregation accuracy
-- **Service Tests**: OCR and extraction reliability
-- **Integration Tests**: End-to-end workflow validation
-
-## 🚀 Deployment
-
-### Docker Deployment
-
-```bash
-# Build and run with Docker Compose
-docker-compose up --build
-
-# Or build individual containers
-docker build -t ocr-backend ./app/api
-docker build -t ocr-dashboard ./app/dashboard
-```
-
 ### Production Considerations
 
 - **Database**: Consider PostgreSQL for production use
@@ -364,15 +319,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Streamlit**: Rapid web app development
 - **Pandas**: Data manipulation and analysis
 - **Plotly**: Interactive data visualization
-
-## 📞 Support
-
-For questions, issues, or contributions:
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ocr-receipt-processor/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ocr-receipt-processor/discussions)
-- **Email**: your.email@example.com
-
----
 
 **Made with ❤️ for efficient receipt processing** 
