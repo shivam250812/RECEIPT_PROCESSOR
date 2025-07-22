@@ -115,7 +115,7 @@ ocr-receipt-processor/
    python scripts/start_system.py
    ```
 
-5. **Access the application**
+5. **Access the application Locally**
    - **API Documentation**: http://localhost:8001/docs
    - **Dashboard**: http://localhost:8501
 
