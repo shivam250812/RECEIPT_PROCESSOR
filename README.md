@@ -1,7 +1,7 @@
 # OCR Receipt Processor
 
 
-**🚀 [Live Dashboard](https://receiptproceappr-7v25xuappppdhzyqsp3scoeh.streamlit.app/)  
+**🚀 [Live Dashboard](https://receiptproceappr-7v25xuappppdhzyqsp3scoeh.streamlit.app/)  **
 **📚 [API Docs]([https://your-fastapi-backend-url/docs](https://receipt-processor-884o.onrender.com/docs))**
 
 
